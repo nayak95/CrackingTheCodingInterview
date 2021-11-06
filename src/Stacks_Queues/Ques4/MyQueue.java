@@ -23,6 +23,7 @@ public class MyQueue<Integer> {
                 stackOldest.push(stackNewest.pop());
             }
         }
+        System.out.println("Test");
     }
     public Integer remove() {
         shiftStacks();
